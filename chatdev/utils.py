@@ -87,3 +87,8 @@ def escape_string(value):
     value = re.sub(r'<[^>]*>', '', value)
     value = value.replace("\n", " ")
     return value
+
+
+def create_game_id(prompt_name):
+    game_id = prompt_name.replace(' ', '')
+    return game_id

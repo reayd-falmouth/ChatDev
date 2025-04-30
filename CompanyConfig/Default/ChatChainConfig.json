@@ -1,5 +1,6 @@
 {
-    "chain": [{
+    "chain": [
+        {
             "phase": "DemandAnalysis",
             "phaseType": "SimplePhase",
             "max_turn_step": -1,
